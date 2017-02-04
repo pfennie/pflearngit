@@ -1,3 +1,113 @@
-h1 {
-	color: green;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+#topGrayBox {
+    border-radius: 15px;
+    background-color: #eeeeee;
+    padding: 15px; 
+    width: 85%;
+    height: 90px; 
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
 }
+
+#contentInGrayBox {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#titleTextContainer {
+	float: left;
+	text-shadow: -3px 3px 2px rgba(150, 150, 150, .5);
+	color: #2c4152;
+}
+
+#mainName {
+	font-size: 50px;
+	text-align: right;
+	font-family: 'Ubuntu';
+	letter-spacing: 4px;
+}
+
+#mainRoles {
+	font-size: 20px;
+	margin-left: 70px;
+	text-align: right;
+	font-family: 'Ubuntu';
+	letter-spacing: 4px;
+}
+
+#contactIcons {
+	float: right;
+	margin-top: 25px;
+}
+
+table {
+	right: 140px;
+}
+
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.icons {
+	height: 35px;
+	box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
+	border-radius: 9px;
+}
+
+#middlePageBox {
+    border-radius: 15px;
+    padding: 15px; 
+    width: 85%;
+    height: 500px; 
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    /**box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
+    background-color: #eeeeee;**/
+
+}
+
+#contentInMiddleBox {
+	margin-top: 10px;
+	margin-left: 60px;
+	margin-right: 20px;
+}
+
+#jossHeadshot {
+	float: left;
+	margin-left: 10px;
+}
+
+#jossHeadshotPicture {
+	height: 480px;
+	box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
+}
+
+#roleInformation {
+	float: right;
+	margin-right: 97px;
+	margin-top: 50px;
+}
+
+.titleHeader {
+	font-family: 'Ubuntu';
+	font-size: 30px;
+	color: #2c4152;
+	line-height: 0%;
+	letter-spacing: 2px;
+}
+
+.roleContent {
+	font-family: 'Ubuntu';
+	font-size: 22px;
+	font-weight: lighter;
+	color: #2c4152;
+	line-height: 150%;
+	letter-spacing: 1px;
+}
+
