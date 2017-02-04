@@ -3,7 +3,10 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="java/myScript.js"></script>
 </head>
+
 <body>
 	<h1>Press the buttons!</h1>
 	<button type="button" onclick="myFunction1()">Click me</button>
@@ -12,7 +15,10 @@
 	<img id="demo1" height="300px">
 	<img id="demo2" height="300px">
 
-<script type="text/javascript" src="jquery-1.8.3.js"></script>
-<script src="java/myScript.js"></script>
+<script type="text/javascript">
+	$(function(){
+      alert("My First Jquery Test");
+   });
+</script>
 </body>
 </html>
