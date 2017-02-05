@@ -8,8 +8,8 @@
     height: 90px; 
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
-    box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
+    /**overflow: hidden;**/
+	box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
 }
 
 #contentInGrayBox {
@@ -26,7 +26,7 @@
 #mainName {
 	font-size: 50px;
 	text-align: right;
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	letter-spacing: 4px;
 }
 
@@ -34,7 +34,7 @@
 	font-size: 20px;
 	margin-left: 70px;
 	text-align: right;
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	letter-spacing: 4px;
 }
 
@@ -66,7 +66,7 @@ td {
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
+    /**overflow: hidden;**/
     /**box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
     background-color: #eeeeee;**/
 
@@ -95,7 +95,7 @@ td {
 }
 
 .titleHeader {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	color: #2c4152;
 	line-height: 0%;
@@ -103,7 +103,7 @@ td {
 }
 
 .roleContent {
-	font-family: 'Ubuntu';
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: lighter;
 	color: #2c4152;
@@ -116,5 +116,6 @@ td {
 	text-align: center;
 	color: #2c4152;
 	font-style: italic;
-
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+	font-size: 10px;
 }
