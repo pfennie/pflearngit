@@ -4,15 +4,15 @@
     border-radius: 15px;
     background-color: #eeeeee;
     padding: 15px; 
-    width: 85%;
-    height: 90px; 
+    width: auto;
+    overflow: auto;
     margin-left: auto;
     margin-right: auto;
-    /**overflow: hidden;**/
 	box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
+	display: block;
 }
 
-#contentInGrayBox {
+#mainText {
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -43,10 +43,6 @@
 	margin-top: 25px;
 }
 
-table {
-	right: 140px;
-}
-
 td {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -61,26 +57,24 @@ td {
 #middlePageBox {
     border-radius: 15px;
     padding: 15px; 
-    width: 85%;
-    height: 500px; 
-    margin-top: 10px;
+    width: auto;
+	display: block;
+    overflow: auto;
     margin-left: auto;
     margin-right: auto;
-    /**overflow: hidden;**/
-    /**box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
-    background-color: #eeeeee;**/
-
+    margin-top: 10px;
+    display: block;
 }
 
 #contentInMiddleBox {
 	margin-top: 10px;
-	margin-left: 60px;
-	margin-right: 20px;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 #jossHeadshot {
 	float: left;
-	margin-left: 10px;
+	margin-left: 60px;
 }
 
 #jossHeadshotPicture {
@@ -90,8 +84,8 @@ td {
 
 #roleInformation {
 	float: right;
-	margin-right: 97px;
-	margin-top: 50px;
+	margin-top: 100px;
+	margin-right: 75px;
 }
 
 .titleHeader {
