@@ -1,147 +1,83 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-
-/*
-
-#blackStripe {
-	background-color: #2c4152;
-	border-bottom: 3px solid #fe0efe;
-	border-top: 3px solid #fe0efe;
-}
-
-#topNavBar {
-	border-radius: 5px;
-    background-color: #eeeeee;
-    height: 24px;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-	box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-#navTable {
-	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	color: white;
-}
-
-*/
-
-#topGrayBox {
-    margin-top: 10px;
-    border-radius: 15px;
-    background-color: #eeeeee;
-    padding: 15px; 
-    width: 1000px;
-    overflow: auto;
-    margin-left: auto;
-    margin-right: auto;
-	box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
-	display: block;
-}
-
-#mainText {
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-#titleTextContainer {
-	float: left;
-	text-shadow: -3px 3px 2px rgba(150, 150, 150, .5);
-	color: #2c4152;
+body {
+	background-color: #f2f2f2;
 }
 
 #mainName {
 	font-size: 50px;
-	text-align: right;
+	text-align: center;
 	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	letter-spacing: 4px;
+	text-shadow: -3px 3px 2px rgba(150, 150, 150, .5);
+	color: #2c4152;
 }
 
 #mainRoles {
+	margin-top: 5px;
 	font-size: 20px;
-	margin-left: 70px;
-	text-align: right;
+	text-align: center;
 	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 	letter-spacing: 4px;
+	text-shadow: -3px 3px 2px rgba(150, 150, 150, .5);
+	color: #2c4152;
 }
 
-#contactIcons {
-	float: right;
-	margin-top: 25px;
-}
-
-td {
-	padding-left: 10px;
-	padding-right: 10px;
+#socialMedia {
+	margin-top: 10px;
 }
 
 .icons {
-	height: 35px;
+	height: 30px;
 	box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
-	border-radius: 9px;
+	border-radius: 7px;
 }
 
-#middlePageBox {
-    border-radius: 15px;
-    padding: 15px; 
-    width: 1000px;
+td {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.sliderImage {
 	display: block;
-    overflow: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    display: block;
-}
-
-#contentInMiddleBox {
+	margin: auto;
 	margin-top: 10px;
-	margin-left: auto;
-    margin-right: auto;
+	height: 500px;
 }
 
-#jossHeadshot {
-	float: left;
-	margin-left: 60px;
+#upcoming {
+	margin-top: 50px;
 }
 
-#jossHeadshotPicture {
-	height: 480px;
-	box-shadow: 0 3px 15px 0 rgba(0,0,0,.2);
-}
-
-#roleInformation {
-	float: right;
-	margin-top: 100px;
-	margin-right: 75px;
+#recentRoles {
+	position: relative;
+	margin-top: 25px;
 }
 
 .titleHeader {
 	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 26px;
 	color: #2c4152;
 	letter-spacing: 2px;
-	line-height: 0%;
+	text-align: center;
+}
+
+.roleContent {
+	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #2c4152;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#ticketButton {
+	position: relative;
+	bottom: 5px;
 }
 
 u {
 	text-decoration: none;
 	border-bottom: 3px solid #fe0efe;
 } 
-
-.roleContent {
-	font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
-	font-size: 22px;
-	font-weight: lighter;
-	color: #2c4152;
-	line-height: 150%;
-	letter-spacing: 1px;
-}
-
-#ticketLink {
-	font-size: 16px;
-}
 
 a:link {
     text-decoration: none;
@@ -159,14 +95,7 @@ a:active {
     text-decoration: underline;
 }
 
-#footer {
-	width: 1000px;
-	text-align: center;
-	margin-left: auto;
-    margin-right: auto;
-}
-
 #legalStuff {
-	margin: auto;
+	text-align: center;
 	font-size: .75em;
 }
